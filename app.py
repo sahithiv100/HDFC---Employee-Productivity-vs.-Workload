@@ -95,13 +95,14 @@ st.markdown("""
 # -----------------------------------------------------------------------------
 # Resolve base path relative to dashboard script
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DATA_PATH = os.path.join(BASE_DIR, "data", "cleaned_employee_data.csv")
-PREDS_PATH = os.path.join(BASE_DIR, "outputs", "employee_predictions.csv")
-DEPT_PATH = os.path.join(BASE_DIR, "outputs", "department_summary.csv")
-METRICS_PATH = os.path.join(BASE_DIR, "outputs", "model_metrics.json")
-REPORTS_DIR = os.path.join(BASE_DIR, "outputs", "employee_reports")
-MGMT_REPORT_PATH = os.path.join(BASE_DIR, "outputs", "HDFC_Bank_Management_Report.pdf")
+DATA_PATH = os.path.join(BASE_DIR, "cleaned_employee_data.csv")
+PREDS_PATH = os.path.join(BASE_DIR, "employee_predictions.csv")
+DEPT_PATH = os.path.join(BASE_DIR, "department_summary.csv")
+METRICS_PATH = os.path.join(BASE_DIR, "model_metrics.json")
+REPORTS_DIR = os.path.join(BASE_DIR, "employee_reports")
+MGMT_REPORT_PATH = os.path.join(BASE_DIR, "HDFC_Bank_Management_Report.pdf")
 ZIP_PATH = os.path.join(REPORTS_DIR, "HDFC_Bank_400_Employee_Reports.zip")
+
 
 @st.cache_data
 def load_data():
