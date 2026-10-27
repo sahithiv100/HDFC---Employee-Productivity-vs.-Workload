@@ -1,0 +1,113 @@
+{
+  "accuracy": 0.9729166666666667,
+  "precision_macro": 0.9536222439448246,
+  "recall_macro": 0.9595713229859572,
+  "f1_macro": 0.9545044429254955,
+  "precision_weighted": 0.9756421744324971,
+  "recall_weighted": 0.9729166666666667,
+  "f1_weighted": 0.9730551378446115,
+  "confusion_matrix": [
+    [
+      288,
+      0,
+      0
+    ],
+    [
+      0,
+      98,
+      12
+    ],
+    [
+      0,
+      1,
+      81
+    ]
+  ],
+  "classification_report": {
+    "Low Risk": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 288.0
+    },
+    "Medium Risk": {
+      "precision": 0.98989898989899,
+      "recall": 0.8909090909090909,
+      "f1-score": 0.937799043062201,
+      "support": 110.0
+    },
+    "High Risk": {
+      "precision": 0.8709677419354839,
+      "recall": 0.9878048780487805,
+      "f1-score": 0.9257142857142857,
+      "support": 82.0
+    },
+    "accuracy": 0.9729166666666667,
+    "macro avg": {
+      "precision": 0.9536222439448246,
+      "recall": 0.9595713229859572,
+      "f1-score": 0.9545044429254955,
+      "support": 480.0
+    },
+    "weighted avg": {
+      "precision": 0.9756421744324971,
+      "recall": 0.9729166666666667,
+      "f1-score": 0.9730551378446115,
+      "support": 480.0
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "Performance_Score",
+      "importance": 19.46
+    },
+    {
+      "feature": "Productivity_Score",
+      "importance": 14.38
+    },
+    {
+      "feature": "Overtime_Ratio",
+      "importance": 14.15
+    },
+    {
+      "feature": "Task_Completion_Rate",
+      "importance": 13.27
+    },
+    {
+      "feature": "Overtime_Hours",
+      "importance": 11.95
+    },
+    {
+      "feature": "Deadline_Adherence",
+      "importance": 7.64
+    },
+    {
+      "feature": "Engagement_Score",
+      "importance": 5.78
+    },
+    {
+      "feature": "Workload_Index",
+      "importance": 3.89
+    },
+    {
+      "feature": "Working_Hours",
+      "importance": 2.5
+    },
+    {
+      "feature": "Absenteeism_Rate",
+      "importance": 2.43
+    },
+    {
+      "feature": "Quality_Score",
+      "importance": 2.32
+    },
+    {
+      "feature": "Absence_Days",
+      "importance": 1.89
+    },
+    {
+      "feature": "Performance_Change",
+      "importance": 0.34
+    }
+  ]
+}
